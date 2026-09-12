@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SPDX-FileCopyrightText: 2026 Paranoid Android
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:persistent="false"
+    android:title="@string/pie_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:title="@string/pie_intro" />
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="pie_preview"
+        android:selectable="false"
+        android:layout="@layout/pie_preview"
+        settings:controller="co.aospa.settings.gestures.PiePreviewPreferenceController" />
+
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/pie_shortcut_top">
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="pie_shortcut_top"
+            android:selectable="false"
+            android:layout="@layout/pie_shortcut_selector"
+            settings:controller="co.aospa.settings.gestures.PieShortcutSelectorPreferenceController" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/pie_shortcut_bottom">
+
+        <com.android.settingslib.widget.LayoutPreference
+            android:key="pie_shortcut_bottom"
+            android:selectable="false"
+            android:layout="@layout/pie_shortcut_selector"
+            settings:controller="co.aospa.settings.gestures.PieShortcutSelectorPreferenceController" />
+    </PreferenceCategory>
+</PreferenceScreen>

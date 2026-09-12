@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SPDX-FileCopyrightText: 2026 Paranoid Android
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+<resources>
+    <!-- Pie -->
+    <dimen name="pie_shortcut_button_size">72dp</dimen>
+    <dimen name="pie_shortcut_item_width">88dp</dimen>
+</resources>

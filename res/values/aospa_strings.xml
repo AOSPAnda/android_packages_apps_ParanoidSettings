@@ -3,7 +3,7 @@
      SPDX-FileCopyrightText: 2024 Paranoid Android
      SPDX-License-Identifier: Apache-2.0
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Paranoid Android version -->
     <string name="aospa_version">Paranoid Android version</string>
@@ -208,5 +208,17 @@
     <!-- Smart 5G -->
     <string name="smart_5g_title">Smart 5G</string>
     <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+
+    <!-- Pie -->
+    <string name="pie_title">Pie</string>
+    <string name="pie_intro">Swipe in from the edge and hold, then slide up or down to use a shortcut instead of going back.</string>
+    <string name="pie_summary_off">Off</string>
+    <string name="pie_summary_two"><xliff:g id="first">%1$s</xliff:g>, <xliff:g id="second">%2$s</xliff:g></string>
+    <string name="pie_shortcut_top">Top shortcut</string>
+    <string name="pie_shortcut_bottom">Bottom shortcut</string>
+    <string name="pie_shortcut_none">None</string>
+    <string name="pie_shortcut_home">Home</string>
+    <string name="pie_shortcut_recents">Recents</string>
+    <string name="pie_shortcut_notifications">Notifications</string>
 
 </resources>
